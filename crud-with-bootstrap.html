@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage with ExpressJS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-4">
+            <p class="h5">NodeJS Express.js CRUD With HTML5 Storage and Bootstrap</p>
+        </div>
+
+        <div class="row mb-4">
+            <div class="form-row">
+                <div class="form-group col-5">
+                    <input type="hidden" id="id" value="" />
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group col-5">
+                    <input type="number" class="form-control" id="age" placeholder="Age">
+                </div>
+                <div class="form-group col-2">
+                    <button id="upsert" class="btn btn-sm btn-outline-primary" onclick="fUpsert()">Action</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <p class="h5">List Items</p>
+        </div>
+        
+        <div class="row">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>#Id</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+            </table>
+       </div>
+
+        <div class="row mt-5">
+            <button id="single" class="btn btn-outline-info" onclick="changeView(this.id)">Single CRUD Page</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>

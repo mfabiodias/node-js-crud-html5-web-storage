@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage with ExpressJS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>NodeJS Express.js CRUD With HTML5 Storage</legend>
+        <div>
+            <input type="hidden" id="id" value="" />
+            <label for="name">Nome:</label>
+            <input type="text" id="name" value="" />
+            <label for="age">Idade:</label>
+            <input type="number" id="age" value="" />
+            <button id="upsert" act="teste" onclick="fUpsert()">Action</button>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>List Items</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#Id</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+            </table>
+    </fieldset>
+
+    <button id="bootstrap" onclick="changeView(this.id)">Bootstrap CRUD Page</button>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>

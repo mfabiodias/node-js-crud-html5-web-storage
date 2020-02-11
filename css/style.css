@@ -1,0 +1,20 @@
+fieldset {
+    margin-top: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+td {
+    text-align: left;
+}
+
+#bootstrap {
+    margin-top: 60px;
+}
