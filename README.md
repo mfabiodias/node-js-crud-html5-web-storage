@@ -1,8 +1,8 @@
 # NodeJS - Crud com ExpressJS em LocalStorage e Boostrap
 
-![N|Solid](https://raw.githubusercontent.com/mfabiodias/node-js-crud-local-storage/master/img/layout/node-js-crud-local-storage-single.png)
+![N|Solid](https://raw.githubusercontent.com/mfabiodias/node-js-crud-html5-web-storage/master/img/layout/node-js-crud-local-storage-single.png)
 
-![N|Solid](https://raw.githubusercontent.com/mfabiodias/node-js-crud-local-storage/master/img/layout/node-js-crud-local-storage-bootstrap.png)
+![N|Solid](https://raw.githubusercontent.com/mfabiodias/node-js-crud-html5-web-storage/master/img/layout/node-js-crud-local-storage-bootstrap.png)
 
   - CRUD com base de dados em LocalStorage
   - 2 versões (Simples e com Bootstrap)
